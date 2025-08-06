@@ -17,20 +17,7 @@ const Content = () => {
    function decrementFunction() {
     setCount(count - 1);
    }
-   const [items, setItems] = useState([
-         { id: 1, 
-           item: "Practice React",
-           checked :true
-        },
-         { id: 1, 
-           item: "Play cricket" ,
-           checked :true
-        },
-         { id: 1, 
-           item: "Read a book" , 
-           checked :true
-        }
-   ]);
+   
    return(
    
     <main>
